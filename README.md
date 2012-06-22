@@ -62,3 +62,12 @@ Troubleshooting
 ---------------
 
 None yet.
+
+
+Helpful scripts
+---------------
+Finding users and info:
+
+awk -F":" '{ print "username: " $1 "\t\tuid:" $3 "\t\tgid:" $3 }' /etc/passwd
+
+
